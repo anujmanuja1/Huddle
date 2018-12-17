@@ -1,0 +1,49 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Positive case for Search",
+        "description": "",
+        "id": "to-search-in-uk.ask.com;positive-case-for-search",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "line": 5,
+            "name": "I am a user of Huddle",
+            "keyword": "Given "
+          },
+          {
+            "line": 6,
+            "name": "I launch into uk.ask.com",
+            "keyword": "When "
+          },
+          {
+            "line": 7,
+            "name": "Search for the keyword",
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1671818387,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should be able to see the matching keyword in the search results",
+            "match": {
+              "location": "SearchPageSteps.I_should_be_able_to_see_the_matching_keyword_in_the_search_results()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To Search in uk.ask.com",
+    "description": "",
+    "id": "to-search-in-uk.ask.com",
+    "keyword": "Feature",
+    "uri": "Search.feature"
+  }
+]
